@@ -1,0 +1,48 @@
+.services__title {
+  color: rgb(29, 52, 68);
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -3%;
+  text-align: left;
+}
+
+.containers {
+  max-width: 760px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.services {
+  padding: 150px 0;
+  h4 {
+    color: rgb(91, 91, 91);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 24px 0 48px 0;
+  }
+  p {
+    max-width: 752px;
+    color: rgb(91, 91, 91);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  h3 {
+    color: rgb(13, 19, 23);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -3%;
+    text-align: left;
+    padding: 40px 0 24px 0;
+  }
+  .text {
+    padding-top: 24px;
+  }
+}

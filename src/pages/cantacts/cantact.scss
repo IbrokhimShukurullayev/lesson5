@@ -1,0 +1,95 @@
+#cantact {
+  padding: 170px 0 0 0;
+}
+
+.cantact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__title {
+    color: rgb(29, 52, 68);
+    max-width: 561px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: -3%;
+    text-align: left;
+  }
+  &__text {
+    color: rgb(91, 91, 91);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 24px;
+  }
+  &__right {
+    display: flex;
+    gap: 76px;
+    h2 {
+      color: rgb(13, 19, 23);
+      padding-bottom: 16px;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: -3%;
+      text-align: left;
+    }
+    p {
+      color: rgb(91, 91, 91);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+  }
+}
+
+form {
+  display: grid;
+  grid-template-columns: 605px;
+  gap: 16px;
+  input {
+    padding: 17px 0 17px 32px;
+    border-radius: 27px;
+    border: none;
+    background: rgba(210, 218, 237, 0.17);
+    color: rgb(156, 156, 156);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .textarea {
+    border: none;
+    width: 100%;
+    border-radius: 27px;
+    background: rgba(210, 218, 237, 0.17);
+    padding: 29px 0 0 32px;
+    color: rgb(156, 156, 156);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+#forms {
+  padding: 64px 0 128px 0;
+}

@@ -1,0 +1,38 @@
+#careers {
+  padding-top: 150px;
+}
+
+.careers__title {
+  color: rgb(29, 52, 68);
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -3%;
+  text-align: left;
+}
+
+.careers {
+  &__job {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 0;
+    h2 {
+      color: rgb(13, 19, 23);
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: -3%;
+      text-align: left;
+      padding-bottom: 16px;
+    }
+    p {
+      color: rgb(91, 91, 91);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: 0%;
+      text-align: left;
+      max-width: 640px;
+    }
+  }
+}
